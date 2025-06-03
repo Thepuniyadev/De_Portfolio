@@ -1,6 +1,5 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import photo from "../assets/images/photo1.jpg";
 import { Link } from 'react-scroll';
 
 export const Hero = () => {
