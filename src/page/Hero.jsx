@@ -1,6 +1,9 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from 'react-scroll';
+import HeroImage from '../assets/images/hero.png';
+
+
 
 export const Hero = () => {
   return (
@@ -56,11 +59,11 @@ export const Hero = () => {
       </div>
 
       {/* Hero Image */}
-      <img 
-        src="../src/assets/images/final png.png" alt=""
-         
-        className="w-[90%] md:w-[40%] animate-float z-1 drop-shadow-xl"
-      />
+     <img 
+  src={HeroImage}
+  alt="Hero"
+  className="w-[90%] md:w-[40%] animate-float z-1 drop-shadow-xl"
+/>
 
     </section>
   );

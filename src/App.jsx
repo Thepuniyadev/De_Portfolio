@@ -35,7 +35,7 @@ const MainPage = () => {
       </Element>
 
       <StickyResumeButton />
-      {/* <ContactLinks/> */}
+      <ContactLinks/>
     </>
   );
 };

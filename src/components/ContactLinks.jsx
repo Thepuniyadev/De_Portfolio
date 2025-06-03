@@ -1,41 +1,53 @@
-
 import React from "react";
 
 const ContactLinks = () => {
   return (
-   
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-8">
+      <h1 className="text-5xl md:text-6xl font-bold mb-16 text-center text-cyan-700">
+        Let's get in touch
+      </h1>
 
-
-    
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-8 ">
-      <h1 className="text-6xl font-bold mb-16 text-center text-cyan-700"> Let's get in touch</h1>
-      <ul className="space-y-4 text-2xl text-gray-800">
+      <ul className="space-y-6 text-xl md:text-2xl text-gray-800">
         <li>
-          <a href="mailto:devesh@example.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
-            📧 Gmail: Deveshpuniya.615@gmail.com
+          <a
+            href="mailto:deveshpuniya.615@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-600 transition-colors"
+          >
+            📧 Email: deveshpuniya.615@gmail.com
           </a>
         </li>
+
         <li>
-          <a href="https://www.linkedin.com/in/devesh-puniya-2a58a32a1" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
-            💼 LinkedIn:in/devesh-puniya-2a58a32a1
+          <a
+            href="https://www.linkedin.com/in/devesh-puniya-2a58a32a1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-600 transition-colors"
+          >
+            💼 LinkedIn: /in/devesh-puniya-2a58a32a1
           </a>
         </li>
+
         <li>
-          <a href="https://github.com/deveshpuniyadev" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
-            🧑‍💻Github: https://github.com/Thepuniyadev
+          <a
+            href="https://github.com/Thepuniyadev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-600 transition-colors"
+          >
+            🧑‍💻 GitHub: @Thepuniyadev
           </a>
         </li>
+
         <li>
-         <h1 className="hover:text-red-600 text-center"> Contact no: 9654213368
-           
-
-
-             </h1>
-
+          <span className="hover:text-red-600 transition-colors">
+            📱 Contact No: 9654213368
+          </span>
         </li>
       </ul>
     </div>
-    
   );
 };
 
