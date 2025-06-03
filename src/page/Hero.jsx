@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from 'react-scroll';
-import HeroImage from '../assets/images/hero.png';
+import HeroImage from '../assets/images/Hero.png';
 
 
 
