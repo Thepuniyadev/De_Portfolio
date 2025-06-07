@@ -13,7 +13,8 @@ const StickyResumeButton = () => {
         
         <a
   
-  href="/assets/images/Devesh_Puniya.pdf"
+  href="/Devesh_Puniya.pdf"
+
   download="Devesh_Puniya.pdf"
   aria-label="Download Resume"
 >
