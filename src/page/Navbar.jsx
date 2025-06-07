@@ -54,19 +54,22 @@ const Navbar = () => {
           ))}
 
           {/* Glowing Resume Button */}
+          
           <a
-            href="/Devesh_FullStack_Resume.pdf"
-            download
-            className="relative px-5 py-2 rounded-full text-white font-semibold text-sm
-                       bg-gradient-to-r from-blue-600 to-purple-600 shadow-xl transition hover:scale-105
-                       before:absolute before:inset-0 before:rounded-full before:blur-md before:opacity-75
-                       before:animate-pulse before:bg-gradient-to-r before:from-blue-500 before:to-purple-500"
-            style={{ zIndex: 1 }}
-          >
-            <div className="relative flex items-center gap-2 z-10">
-              <Sparkles size={18} /> Resume
-            </div>
-          </a>
+  href="/Devesh_Puniya.pdf"
+  download
+  className="relative px-5 py-2 rounded-full text-white font-semibold text-sm
+             bg-gradient-to-r from-blue-600 to-purple-600 shadow-xl transition hover:scale-105
+             before:absolute before:inset-0 before:rounded-full before:blur-md before:opacity-75
+             before:animate-pulse before:bg-gradient-to-r before:from-blue-500 before:to-purple-500"
+  style={{ zIndex: 1 }}
+>
+  <div className="relative flex items-center gap-2 z-10">
+    <Sparkles size={18} /> Resume
+  </div>
+</a>
+
+      
         </div>
 
         {/* Mobile Hamburger */}
